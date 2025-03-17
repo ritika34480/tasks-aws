@@ -48,7 +48,7 @@
     "tags": {}
   },
   "sqs_handler-role": {
-    "predefined_policies": ["AWSLambdaSQSQueueExecutionRole"],
+    "predefined_policies": [],
     "principal_service": "lambda",
     "custom_policies": [
       "lambda-basic-execution"
@@ -57,7 +57,7 @@
     "tags": {}
   },
   "sns_handler-role": {
-    "predefined_policies": ["AmazonSNSRole"],
+    "predefined_policies": [],
     "principal_service": "lambda",
     "custom_policies": [
       "lambda-basic-execution"
